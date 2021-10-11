@@ -1,0 +1,14 @@
+canvas {
+    border: 10px ridge grey;
+    border-radius: 10px;
+    margin-top: 450px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+#object {
+    box-shadow: 5px 5px 10px grey;
+}
+
+h1, h3 {
+    text-shadow: 5px 5px 10px grey;
+}
