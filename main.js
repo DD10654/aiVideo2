@@ -31,7 +31,7 @@ function draw() {
                 document.getElementById("found").innerHTML = object + " found"
             }
             else {
-                document.getElementById("found").innerHTML = object + " notfound"
+                document.getElementById("found").innerHTML = object + " not found"
             }
         }
     }
