@@ -31,7 +31,7 @@ function draw() {
                 document.getElementById("found").innerHTML = object + " found"
             }
             else {
-                document.getElementById("found").innerHTML = object + " not found"
+                document.getElementById("found").innerHTML = object + " notfound"
             }
         }
     }
@@ -41,8 +41,6 @@ function start() {
     objectDetector = ml5.objectDetector('cocossd', modelLoaded);
     document.getElementById("status").innerHTML = "Status: Detecting Objects";
     object = document.getElementById("object").value;
-
-    if (objects)
 }
 
 function modelLoaded() {
